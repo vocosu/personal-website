@@ -1,0 +1,11 @@
+#root .header:first-child {
+    border-left: 1px solid rgba(34,36,38,.1);
+}
+
+#root .header:last-child {
+    border-right: 1px solid rgba(34,36,38,.1);
+}
+
+#root .ui.small.button {
+    margin: 25px 0 25px 0;
+}
