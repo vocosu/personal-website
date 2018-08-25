@@ -25,7 +25,7 @@ const Contact = ({ phone, email, website }) => {
       {website &&
         <ExternalLink
           style={{ margin: '10px' }}
-          href={website}
+          href={`http://${website}`}
           text={<Button size="tiny" icon="computer" content={website} />}
           color={colors.grey}
         />}

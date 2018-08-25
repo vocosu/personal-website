@@ -21,9 +21,9 @@ class ExternalLink extends React.Component {
   };
 
   render() {
-    let linkStyle = { color: this.props.color };
+    let linkStyle = { color: this.props.color, margin: '5px' };
     if (this.state.hover) {
-      linkStyle = { color: `rgba(${hexToRgb(this.props.color)}, .6)` };
+      linkStyle = { color: `rgba(${hexToRgb(this.props.color)}, .6)`, margin: '5px' };
     }
 
     return (
